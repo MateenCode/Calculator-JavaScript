@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html>
-
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   <head>
-    <title>My Calculator</title>
+    <title>Calculator</title>
   </head>
   <body>
-      <table >
-        <tr >
-        <td id="clear" class="button w3-button w3-circle w3-teal">C</td>
-        <td id="answer" class="total"></td>
-      </tr>
-      <tr>
-        <td id="seven" class="button w3-button w3-khaki">7</td>
-        <td id="eight" class="button w3-button w3-khaki">8</td>
-        <td id="nine" class="button w3-button w3-khaki">9</td>
-        <td id="divide" class="button w3-button w3-teal">/</td>
-      </tr>
-      <tr>
-        <td id="four" class="button w3-button w3-khaki">4</td>
-        <td id="five" class="button w3-button w3-khaki">5</td>
-        <td id="six" class="button w3-button w3-khaki">6</td>
-        <td id="multiply" class="button w3-button w3-teal">*</td>
-      </tr>
-      <tr>
-        <td id="one" class="button w3-button w3-khaki">1</td>
-        <td id="two" class="button w3-button w3-khaki">2</td>
-        <td id="three" class="button w3-button w3-khaki">3</td>
-        <td id="minus" class="button w3-button w3-teal">-</td>
-      </tr>
-      <tr>
-        <td id="zero" class="button w3-button w3-khaki">0</td>
-        <td id="decimal" class="button w3-button w3-teal">.</td>
-        <td id="equals" class="button w3-button w3-teal">=</td>
-        <td id="add" class="button w3-button w3-teal">+</td>
-      </tr>
-    </table>
+    <div class="calculator">
+      <div class="input" id="input"></div>
+      <div class="buttons">
+        <div class="operators">
+          <div>+</div>
+          <div>-</div>
+          <div>&times;</div>
+          <div>&divide;</div>
+        </div>
+        <div class="leftPanel">
+          <div class="numbers">
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+          </div>
+          <div class="numbers">
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+          </div>
+          <div class="numbers">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+          </div>
+          <div class="numbers">
+            <div>0</div>
+            <div>.</div>
+            <div id="clear">C</div>
+          </div>
+        </div>
+        <div class="equal" id="result">=</div>
+      </div>
+    </div>
     <script src="main.js" charset="utf-8"></script>
   </body>
 </html>
