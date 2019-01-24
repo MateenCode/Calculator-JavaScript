@@ -1,6 +1,6 @@
 # [Calculator](http://calculatorjsx.surge.sh/)
 
-A weather app that gives you current forest for any city ☁️🛰️ using the weather map api 
+A calulator app that was created using vanilla javascript ! 
 
 # ScreenShot
 
