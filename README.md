@@ -4,4 +4,4 @@ Calculator using only Vanilla Javascript with all functionality working!
 
 ## Screenshot
 
-![aug-03-2017 19-37-02](https://user-images.githubusercontent.com/28902787/28949613-79dd49de-7883-11e7-8296-0685cc6e6e13.gif)
+<img width="514" alt="screen shot 2019-01-24 at 9 02 05 am" src="https://user-images.githubusercontent.com/28902787/51695057-fc5d6980-1fb6-11e9-9f22-3aae70804358.png">
